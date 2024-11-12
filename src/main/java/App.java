@@ -1,6 +1,18 @@
 import java.util.Arrays;
 
+/**
+ * The {@code App} class demonstrates sorting and searching in an array of {@code Car} objects.
+ * It initializes an array of {@code Car} instances, sorts the array, and searches for a specific
+ * car within the sorted array. The results are printed to the console.
+ */
 public class App {
+
+    /**
+     * The main method is the entry point of the application.
+     * It creates and displays an array of {@code Car} objects, sorts them, and searches for a specific car.
+     *
+     * @param args command-line arguments (not used in this application)
+     */
     public static void main(String[] args) {
         Car[] cars = {
             new Car(2011, 210, "Toyota Camry", "white", true, true),
